@@ -1,0 +1,9 @@
+- running nodejs script
+2018-09-25 / 11:35:12
+The nodejs script ran
+- running python script
+2018-09-25 / 11:35:12
+Your system username is nadpro
+Please enter your real name:
+you entered Nick-test
+The Python script ran
