@@ -10,6 +10,16 @@
 - pscript.py will print that it has finished running.
 - start.sh will echo that the script has finished running.
 
+# Languages
+## Scripting
+- Bash
+- Python
+- NodeJS
+- PHP
+## Machine Language
+- C
+- C++
+
 # Features
 - [x] Bash call and run NodeJS Script.
 - [x] Bash call and run Python Script.
@@ -27,3 +37,15 @@
 - Bash can call and run node and python scripts without issue.
 - Node can call Bash scripts with shelljs as long as it does not require user input.
 - Python can call Bash script and pass through user input.
+- to run php files in bash
+
+## PHP scripting
+```
+sudo chmod +x filename.php
+php --version
+which php
+# ---top of file---
+#!/usr/bin/php
+<?php echo "hello world\n" ?>
+php -f filename.php
+```
